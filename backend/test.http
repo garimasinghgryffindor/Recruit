@@ -1,0 +1,8 @@
+POST http://localhost:4000/addCandidate
+Content-Type: application/json
+
+{
+    "username":"garimaSingh",
+    "location":"tehri",
+    "role":"SDE"
+}

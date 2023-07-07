@@ -1,0 +1,65 @@
+.feature {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    /*box-shadow: 0 8px 6px -6px black;*/
+
+    -webkit-box-shadow: 0 20px 20px #777;
+    -moz-box-shadow: 0 20px 20px #777;
+    box-shadow: 0 20px 20px #777;
+
+    -webkit-transition:  -webkit-transform .2s ease-out;
+    -moz-transition: -moz-transform .2s ease-out;
+    -o-transition: -o-transform .2s ease-out;
+    -ms-transition: -ms-transform .2s ease-out; 
+    transition: transform .2s ease-out; 
+}
+
+.feature:hover {
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+
+    content: "<h1>Hello World</h1>";
+}
+
+.feature-logo {
+    width: 70px;
+    background-color: #27A376;
+    padding: 4px;
+    border-radius: 17px;
+}
+
+.feature-heading {
+    font-size: 26px;
+    font-weight: 600;
+    width: 200px;
+    overflow-wrap: break-word;
+}
+
+.feature-sub-heading {
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    overflow-wrap: break-word;
+}
+
+.feature-description {
+    margin-top: 30px;
+    width: 320px;
+    font-size: 12px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+
+

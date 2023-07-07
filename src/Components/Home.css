@@ -1,0 +1,48 @@
+.home {
+    background-color: #F2F4F4;
+    padding-top: 300px;
+}
+
+.top-text {
+    margin-left: 200px;
+}
+
+.top-text-heading {
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+}
+
+.top-text-heading .top-top {
+
+}
+
+.top-text-heading .top-bottom {
+    color: #27A376;
+}
+
+.top-text-text {
+    margin-top: 40px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.features1 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.features2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-bottom: 300px;
+}
+

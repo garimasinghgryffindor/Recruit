@@ -1,0 +1,29 @@
+.footer {
+    background-color: #101827;
+    text-align: center;
+}
+
+.footer-head {
+    color: #f2f4f4;
+    padding-top: 40px;
+}
+
+.social-handles {
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.social-handle {
+    width: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.footer-text {
+    color: #fff;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+
+

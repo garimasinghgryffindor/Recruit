@@ -1,0 +1,39 @@
+.candidates {
+    background-color: #F2F4F4;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftPane {
+    position: fixed;
+    margin-top: 200px;
+    padding-right: 100px;
+    border-right: 2px solid #808080;
+}
+
+.filter-form {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.rightPane {
+    padding-top: 300px;
+    margin-left: 500px;
+}
+
+.filter-form button {
+    background-color: #27A376; /* Green */
+    border: none;
+    border-radius: 40px;
+    color: #f2f4f4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
